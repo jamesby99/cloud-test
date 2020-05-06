@@ -57,10 +57,10 @@
     </body>
     </html>
     ```
-* Kubernetes
+* Kubernetes : YAML파일 사용했습니다.
   * YAML : k8s.yaml
     Pod 20개, Service Port 80, AutoScale, NFS
-  * 실행
+  * 실행방법
     ```
     kubectl apply -f k8s.yaml
     ```
